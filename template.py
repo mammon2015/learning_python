@@ -1,12 +1,13 @@
 #!/usr/local/python/bin/python
 #
+# -*- coding: utf-8 -*-
+#
 #   本文件包含 Extractor 系列中通用超类的定义, 包含:
 #       Extractor
 #           WebExtractor
 #           FileExtractor
 #
-# -*- coding: utf-8 -*-
-""" Module contains the superclasses of 'Extractor'. """
+""" Docstring for module """
 
 #
 # SECTION: MODULE IMPORTS
@@ -32,27 +33,16 @@ __all__ = ['',]
 #
 # SECTION: CLASS DEFINATION
 #
-#
 #   所有数据抓取器的基类.
 #       属性:
-#           state(str)  用于记录抓取器的状态, 例如 "抓取成功", "转换结束"。
 #       方法:
-#           fetch()     用于抓取数据
-#           upload()    用于上传数据到数据库
 #
 class Extractor:
-    """ Root class of all data extractors """
+    """ Sample Class Definaton """
 
     def __init__(self):
         super().__init__()
         # 类属性定义部分
-        self._state = "已初始化"
-        # 初始化本地日志
-        self.log = logging.getLogger("Extrator")
-
-    def fetch(self):
-        """ Fetches data from source, returns None. """
-        pass
 
 
 # SECTION: SELFTESTING
