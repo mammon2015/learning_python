@@ -7,6 +7,8 @@
 #           WebExtractor
 #           FileExtractor
 #
+#  Useless test for git test
+#
 """ Docstring for module """
 
 #
@@ -19,6 +21,7 @@ import logging
 # SECTION: DEFINE EXTERNAL INTERFACE
 #
 __all__ = ['',]
+
 
 #
 # SECTION: GLOBAL VARIABLES DECLARATION
